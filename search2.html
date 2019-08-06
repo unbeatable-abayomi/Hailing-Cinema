@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hailings Cinema</title>
+    <link rel="icon" type="image/css" href="images/fivicon.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styless/hailingscinema.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto|Satisfy" rel="stylesheet" />
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+        rel="stylesheet" />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<style>
+.list-group-item{
+    background-color: transparent !important;
+}
+</style>
+
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <div id="my-nav">
+            <ul>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="">Featured</a></li>
+                <li><a href="">Most Popular</a></li>
+                <li><a href=""> Nollywood</a></li>
+                <li><a href=""> Bollywood</a></li>
+                <li><a href=""> Home Made</a></li>
+                <li><a href="">Family</a></li>
+                <li><a href=""> Comedy</a></li>
+                <li><a href=""> Horror</a></li>
+                <li><a href=""> Action</a></li>
+                <li><a href=""> Thriller</a></li>
+                <li><a href=""> SciFi</a></li>
+                <li><a href=""> Romance</a></li>
+                <li><a href=""> KungFu</a></li>
+                <li><a href=""> Drama</a></li>
+                <li><a href=""> Faith</a></li>
+                <li><a href=""> Classics</a></li>
+                <li><a href=""> Animation</a></li>
+                <li><a href="">Docuseries</a></li>
+                <li><a href=""> Cult Classics</a></li>
+            </ul>
+        </div>
+        <div class="login-form" id="login-form">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeInForm ()">&times;</a>
+            <form action="">
+                <label for="email">
+                    Your E-Mail Address
+                    <input class="form-input" type="text" placeholder="Email Address" />
+                </label>
+                <label for="password">
+                    Your Password
+                    <input class="form-input" type="password" name="pass" id="pass" />
+                </label>
+                <input class="form-btn" type="submit" value="Login" />
+                <label for="rememberme">
+                    Remember Me
+                    <input class="form-radio" type="radio" name="check" id="" />
+                </label>
+            </form>
+            <a class="lost-password" href="">Lost Password</a>
+            <button onclick="openRegForm()" class="sign-login">New User</button>
+        </div>
+
+        <div class="sign-up-form" id="reg-form">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeRegForm ()">&times;</a>
+            <form action="">
+                <h4>
+                    Register in few easy steps on Hailings Cinema to Watch your favorite
+                    movies for free
+                </h4>
+                <label for="email">
+                    Enter Your E-Mail Address
+                    <input class="form-input" type="text" placeholder="Email Address" />
+                </label>
+
+                <label for="password">
+                    Choose Your Password
+                    <input class="form-input" type="password" name="pass" id="pass" />
+                </label>
+                <input class="form-btn" type="submit" value="Register" />
+            </form>
+
+            <button onclick="openInForm()" class="sign-login">Existing User</button>
+        </div>
+
+        <div class="hailings-hero-section">
+            <div class="main-header">
+                <div class="toggle-nav">
+                    <i class="material-icons nav-icon" onclick="openNav()">
+                        view_headline
+                    </i>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <h1 class="logo-text"> Hailing Cinema</h1>
+                    </a>
+                </div>
+                
+                       <a href="search.html">  </a>
+                <div class="login">
+                    <button class="reg-btn" onclick="openRegForm()">Sign Up</button>
+                    <button class="login-btn" onclick="openInForm()">Login</button>
+                </div>
+            </div>
+            <!-- end of header section -->
+    
+<main>
+
+
+    <div class="container">
+        <div id="movie" class="well">
+
+        </div>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<hr class="light">
+<footer class="main-footer">
+    <div class="container inside-footer">
+        <div class="row text-center">
+
+            <div class="col-lg-3">
+                <a class="navbar-brand" href="#" id="footer-logo"> Hailing Cinema</a>
+            </div>
+
+
+            <div class="col-lg-3">
+                <h3>Hailings Cinema </h3>
+                <hr class="light">
+                <a href="#">
+                    <p class="p-text-footer">Pricing</p>
+                </a>
+                <a href="#">
+                    <p class="p-text-footer">Upload</p>
+                </a>
+                <a href="#">
+                    <p class="p-text-footer">Download</p>
+                </a>
+
+            </div>
+
+
+
+            <div class="col-lg-3">
+                <h3>Features</h3>
+                <hr class="light">
+                <a href="#">
+                    <p class="p-text-footer">Free Trial</p>
+                </a>
+                <a href="#">
+                    <p class="p-text-footer">Sign Up</p>
+                </a>
+                <a href="#">
+                    <p class="p-text-footer">Help Center</p>
+                </a>
+
+            </div>
+
+
+            <div class="col-lg-3">
+                <h3>Follow Us </h3>
+                <hr class="light">
+                <a href="#"><i id="awesome1"  class="fab fa-twitter"></i></a>
+                <a href="#"><i id="awesome2" class="fab fa-instagram"></i><a href="#"></a>
+                    <a href="#"><i id="awesome3" class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i id="awesome4" class="fab fa-youtube"></i></a>
+                    <a href="#"><i id="awesome5" class="fab fa-google-plus-g"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container lower-container">
+        <div class="row lower-row">
+            <p>&copy;2019 Hailing Cinema.All rights reserved. <span class="copyright-text">Terms</span>,<span
+                    class="copyright-text"> Privacy </span>& <span class="copyright-text"> Cookies </span>.</p>
+        </div>
+        <div>
+            <p>made with<span id="footer-entity"> &#10084;</span><span class="copyright-text"> by Group3 SGA 0.5</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+     
+<script type="text/javascript" src="assets/scripts/scrollme.js"></script>
+<script src="assets/scripts/hailingcinema.js"></script>
+<script>
+  getMovie();
+</script>
+</body>
+
+</html>

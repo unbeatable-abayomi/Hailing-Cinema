@@ -1,0 +1,33 @@
+html,body{height:100%;width:100%;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:#222}
+.search-link{font-size:50px;margin-left:40vh}.display-1{font-size:4rem;margin-bottom:10rem}
+.container-fluid{width:100%;opacity:.9}.carousel-inner img{width:100%;height:100%}
+.modal-header{background:#dad7da}.navbar{background-color:transparent}.coolDude{margin-top:10px;width:170px;font-size:11.5px;margin-right:25px}
+.card{position:relative}.card-text{font-weight:700}.text-block{position:absolute;bottom:20rem;right:5rem;background-color:transparent;color:white;padding-left:20px;padding-right:20px}
+.card-img-top{filter:brightness(0.5)}.card{border:0}.fa-search{color:#fff;font-size:20px;margin-top:12px}
+.navbar-nav{margin-right:50px}.nav-item{margin-right:20px}a{font-size:18px}.navbar-brand{font-size:25px}
+.navbar-brand::first-letter {font-size:40px;font-family:sans-serif;color:#ec7e22;font-weight:700}
+.btn-primary:hover{background-color:transparent;border:1px solid #ec7e22}.btn-primary{background-color:#ec7e22;border:1px solid #ec7e22}
+.button-free{background-color:transparent;color:#ec7e22;border:1px solid #ec7e22}
+.button-free:hover{background:#ec7e22;color:#fff}.cat-heading{color:#fff;font-weight:600;padding-bottom:20px}
+.section-categories{background-color:#1a1e24;padding-top:30px}.card{margin-bottom:20px}
+.card-body{background-color:#1a1e24}.btn-cat{background-color:transparent;border:1px solid #ec7e22;padding:.375rem .75rem;border-radius:.25rem;color:#fff;display:inline-block}
+.btn-cat:hover{text-decoration:none;color:#fff;background-color:#ec7e22;border:1px solid #ec7e22}
+.section-plan{padding-top:30px;padding-bottom:30px;background-color:#1a1e24}.plan-heading{padding-top:20px;padding-bottom:20px;color:#fff}
+.inside-heading{font-size:30px;text-align:center;margin-bottom:15px}.plan-paragraph{text-align:center}
+.plan{background-image:linear-gradient(#ec7e22,#ec7e22),url(../SGA-0.5-Group3-HailingsCinema/img/grain.png);background-blend-mode:hard-light;height:10rem;background-color:#ec7e22;border-top-left-radius:18px;border-top-right-radius:18px;color:#fff}
+.plan-list{background-color:#252a33;border-bottom-left-radius:15px;border-bottom-right-radius:15px;height:28rem}
+.plan-list-first{background-color:#252a33;border-bottom-left-radius:15px;border-bottom-right-radius:15px;height:28rem}
+.u-list{padding-top:30px;padding-bottom:15px}.list{list-style:none;margin-bottom:15px}
+.u-list,.price{color:#fff}.price{font-size:25px;text-align:center;margin-bottom:25px}
+.btn1{background-color:#fff;box-shadow:none;border-radius:1rem;padding:.555rem .666rem;color:#000}
+.btn1:hover{text-decoration:none;color:#000}.btn-click{text-align:center;margin-top:10px}
+.btn-primary:hover{background-color:transparent;border:1px solid #ec7e22}.btn-primary{background-color:#ec7e22;border:1px solid #ec7e22}
+.button-free{background-color:transparent;color:#ec7e22;border:1px solid #ec7e22}
+.button-free:hover{background:#ec7e22;color:#fff}ul li{list-style:none}.lower-container{color:#ec7e22;width:100%;height:70px;margin-top:40px;font-size:13px;display:flex;justify-content:space-between;padding-top:30px}
+#footer-logo{margin-right:180px;margin-top:-25px;color:#fff}.main-footer{padding-top:20px;color:#fff}
+.light{margin-top:10px;width:80%;background:#b2beb5}#footer-entity{color:#fd0808;font-size:10px}
+.p-text-footer{margin:1px;font-size:1rem}.p-text-footer:hover{color:#e5e5e5;cursor:pointer}
+.search-input{border:none transparent;outline:0}a:hover{text-decoration:none !important;color:#fff !important}
+.copyright-text{color:#fff}#awesome1,#awesome2,#awesome3,#awesome4,#awesome5{margin:6px;font-size:15px}
+.logo-text::first-letter {color:#ec7e22;font-size:35px}@media(min-width:320px) and (max-width:600px){img #animated-slide-left{width:100px}
+.choose-plan{margin:20px}}

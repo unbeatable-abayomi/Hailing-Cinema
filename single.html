@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/css" href="images/fivicon.jpg">
+    <link rel="stylesheet" href="assets/styless/hailingscinema.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto|Satisfy"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Hailings Cinema : Sinlgle Movie Preview</title>
+  </head>
+  <body>
+    <div id="my-nav">
+      <ul>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <li><a href="">Featured</a></li>
+        <li><a href="">Most Popular</a></li>
+        <li><a href=""> Nollywood</a></li>
+        <li><a href=""> Bollywood</a></li>
+        <li><a href=""> Home Made</a></li>
+        <li><a href="">Family</a></li>
+        <li><a href=""> Comedy</a></li>
+        <li><a href=""> Horror</a></li>
+        <li><a href=""> Action</a></li>
+        <li><a href=""> Thriller</a></li>
+        <li><a href=""> SciFi</a></li>
+        <li><a href=""> Romance</a></li>
+        <li><a href=""> KungFu</a></li>
+        <li><a href=""> Drama</a></li>
+        <li><a href=""> Faith</a></li>
+        <li><a href=""> Classics</a></li>
+        <li><a href=""> Animation</a></li>
+        <li><a href="">Docuseries</a></li>
+        <li><a href=""> Cult Classics</a></li>
+      </ul>
+    </div>
+    <div class="login-form" id="login-form">
+      <a href="javascript:void(0)" class="close-btn" onclick="closeInForm ()"
+        >&times;</a
+      >
+      <form action="">
+        <label for="email">
+          Your E-Mail Address
+          <input class="form-input" type="text" placeholder="Email Address" />
+        </label>
+        <label for="password">
+          Your Password
+          <input class="form-input" type="password" name="pass" id="pass" />
+        </label>
+        <input class="form-btn" type="submit" value="Login" />
+        <label for="rememberme">
+          Remember Me
+          <input class="form-radio" type="radio" name="check" id="" />
+        </label>
+      </form>
+      <a class="lost-password" href="">Lost Password</a>
+      <button onclick="openRegForm()" class="sign-login">New User</button>
+    </div>
+
+    <div class="sign-up-form" id="reg-form">
+      <a href="javascript:void(0)" class="close-btn" onclick="closeRegForm ()"
+        >&times;</a
+      >
+      <form action="">
+        <h4>
+          Register in few easy steps on Hailings Cinema to Watch your favorite
+          movies for free
+        </h4>
+        <label for="email">
+          Enter Your E-Mail Address
+          <input class="form-input" type="text" placeholder="Email Address" />
+        </label>
+
+        <label for="password">
+          Choose Your Password
+          <input class="form-input" type="password" name="pass" id="pass" />
+        </label>
+        <input class="form-btn" type="submit" value="Register" />
+      </form>
+
+      <button onclick="openInForm()" class="sign-login">Existing User</button>
+    </div>
+
+    <div class="hailings-hero-section">
+      <header class="main-header">
+        <nav class="toggle-nav">
+          <i class="material-icons nav-icon" onclick="openNav()">
+            view_headline
+          </i>
+        </nav>
+        <div class="logo">
+          <a href="index.html"><h1 class="logo-text">Hailings Cinema</h1></a>
+        </div>
+        <div class="search">
+          <form action="">
+            <input
+              class="material-icons search-button"
+              type="submit"
+              value="search"
+            />
+            <input
+              class="seach-bar"
+              type="search"
+              placeholder="Search for Movies "
+            />
+          </form>
+        </div>
+        <div class="login">
+          <button class="reg-btn" onclick="openRegForm()">Sign Up</button>
+          <button class="login-btn" onclick="openInForm()">Login</button>
+        </div>
+      </header>
+      <!-- end of header section -->
+      <div class="hero-content-wrapper">
+        <div class="hero-contents">
+          <div class="single-content-wrapper">
+            <video src="assets/videos/ts.mp4" width="100%" controls></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of hero. section -->
+
+    <div class="hailings-movie-details">
+      <div class="single-movie-card">
+        <img src="assets/images/toystory.jpg" alt="" />
+        <button class="single-queue">Watch Later</button>
+        <button class="single-share">Share</button>
+      </div>
+      <div class="single-movie-header">
+        <div class="single-movie-title">
+          <h2>Toy Story 4: A Tale of New Era</h2>
+        </div>
+        <div class="single-movie-meta">
+          <span class="date">2019</span>
+          <span class="time-span">1hr :30min</span>
+          <span class="rating">TV-G</span>
+        </div>
+        <div class="single-category">
+          <a href="">Family</a>
+          <a href="">Animation</a>
+          <a href="">Adventure</a>
+        </div>
+        <div class="plot">
+          <p>
+            Woody, Buzz Lightyear and the rest of the gang embark on a road trip
+            with Bonnie and a new toy named Forky. The adventurous journey turns
+            into an unexpected reunion as Woody's slight detour leads him to his
+            long-lost friend Bo Peep. As Woody and Bo discuss the old days, they
+            soon start to realize that they're worlds apart when it comes to
+            what they want from life as a toy.
+          </p>
+        </div>
+        <div class="director">
+          <span class="director-title">Director</span>
+          <span class="director-name">
+            <a href="">Josh Cooley</a>
+          </span>
+        </div>
+        <div class="staring">
+          <span class="staring-title">
+            STARING
+          </span>
+          <span class="staring-names">
+            <a href="">Christina Hendricks</a>
+            <a href=""> Patricia Arquette</a>
+            <a href="">Keanu Reeves</a>
+            <a href=""> Tom Hanks</a>
+            <a href="">Jordan Peele</a>
+            <a href=""> Joan Cusack</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Simailar Movies</h2>
+      <div class="hailings-movie-card-wrapper ">
+        <div class="hailings-movie-card-content">
+          <div class="hailings-header-title">
+            <h3>Avengers: End Game</h3>
+          </div>
+          <header class="hailings-movie-header">
+            <div class="hailings-header-rating">
+              <p>PG 13</p>
+            </div>
+            <div class="hailings-header-star">
+              <i class="material-icons">
+                star
+              </i>
+              <i class="material-icons">
+                star_half
+              </i>
+              <i class="material-icons">
+                star_border
+              </i>
+            </div>
+          </header>
+          <!-- Header contains the meta details of the movie -->
+          <section class="hailings-movie-thumb-sm">
+            <img src="assets/images/avengers.jpg" alt="Avengers" srcset="" />
+          </section>
+        </div>
+        <!-- end of movie card -->
+        <div class="hailings-movie-card-content">
+          <div class="hailings-header-title">
+            <h3>Shazam</h3>
+          </div>
+          <header class="hailings-movie-header">
+            <div class="hailings-header-rating">
+              <p>PG 13</p>
+            </div>
+            <div class="hailings-header-star">
+              <i class="material-icons">
+                star
+              </i>
+              <i class="material-icons">
+                star_half
+              </i>
+              <i class="material-icons">
+                star_border
+              </i>
+            </div>
+          </header>
+          <!-- Header contains the meta details of the movie -->
+          <section class="hailings-movie-thumb-sm">
+            <img src="assets/images/shazam.jpg" alt="Avengers" srcset="" />
+          </section>
+        </div>
+        <!-- end of movie card -->
+        <div class="hailings-movie-card-content">
+          <div class="hailings-header-title">
+            <h3>Spiderman: Far from Home</h3>
+          </div>
+          <header class="hailings-movie-header">
+            <div class="hailings-header-rating">
+              <p>PG 13</p>
+            </div>
+            <div class="hailings-header-star">
+              <i class="material-icons">
+                star
+              </i>
+              <i class="material-icons">
+                star_half
+              </i>
+              <i class="material-icons">
+                star_border
+              </i>
+            </div>
+          </header>
+          <!-- Header contains the meta details of the movie -->
+          <section class="hailings-movie-thumb-sm">
+            <img src="assets/images/spiderman.jpeg" alt="Avengers" srcset="" />
+          </section>
+        </div>
+        <!-- end of movie card -->
+        <div class="hailings-movie-card-content">
+          <div class="hailings-header-title">
+            <h3>X-Men: dark Pheonix</h3>
+          </div>
+          <header class="hailings-movie-header">
+            <div class="hailings-header-rating">
+              <p>PG 13</p>
+            </div>
+            <div class="hailings-header-star">
+              <i class="material-icons">
+                star
+              </i>
+              <i class="material-icons">
+                star_half
+              </i>
+              <i class="material-icons">
+                star_border
+              </i>
+            </div>
+          </header>
+          <!-- Header contains the meta details of the movie -->
+          <section class="hailings-movie-thumb-sm">
+            <img src="assets/images/darkpheonix.png" alt="Avengers" srcset="" />
+          </section>
+        </div>
+        <!-- end of movie card -->
+        <div class="hailings-movie-card-content">
+          <div class="hailings-header-title">
+            <h3>Lion King</h3>
+          </div>
+          <header class="hailings-movie-header">
+            <div class="hailings-header-rating">
+              <p>PG 13</p>
+            </div>
+            <div class="hailings-header-star">
+              <i class="material-icons">
+                star
+              </i>
+              <i class="material-icons">
+                star_half
+              </i>
+              <i class="material-icons">
+                star_border
+              </i>
+            </div>
+          </header>
+          <!-- Header contains the meta details of the movie -->
+          <section class="hailings-movie-thumb-sm">
+            <img src="assets/images/lionking.jpeg" alt="Avengers" srcset="" />
+          </section>
+        </div>
+        <!-- end of movie card -->
+      </div>
+    </div>
+    <!-- end of container section -->
+
+<!-- start of footer -->
+
+    <hr class="first-line">
+    <footer class="main-footer">
+          <div class="container footer-container">
+            <div class="divOne-footer">
+                 <h1 class="h1-divOne-footer">Hailing Cinema </h1>  
+             </div>	
+              
+   
+              <div class="divTwo-footer">
+                    <h3 class="h3-divTwo-footer">Hailings Cinema </h3> 
+                    <hr class="second-line">
+                    <p class="p-Tag-footer">Pricing</p>
+                     <p class="p-Tag-footer">UpLoad</p>
+                     <p class="p-Tag-footer">Download</p>
+                    
+              </div> 
+             <div class="divThree-footer">
+                     <h3 class="h3-divThree-footer">Features</h3>
+                     <hr class="third-line">
+                     <p class="p-Tag-footer">Free Trial</p>
+                     <p class="p-Tag-footer">Sign up</p>
+                     <p class="p-Tag-footer">Help Center</p>
+             </div>
+
+         <div class="divFour-footer">     
+                 <h3 class="h3-divFour-footer">Follow us</h3>
+                 <hr class="fourth-line">
+                 <a href="#"><i class="fab fa-twitter footer-awesome"></i></a>
+   <a href="#"><i class="fab fa-instagram footer-awesome"></i><a href="#"></a>
+   <a href="#"><i class="fab fa-facebook-f footer-awesome"></i></a>
+   <a href="#"><i class="fab fa-youtube footer-awesome"></i></a>
+   <a href="#"><i class="fab fa-google-plus-g footer-awesome"></i></a>
+                </div>
+          </div>
+               
+                    
+                    
+   
+       <div class="container lower-container">
+           <div class="row lower-row">
+    <p>&copy;2019 Hailing Cinema.All rights reserved. <span class="copyright-text">Terms</span>,<span class="copyright-text"> Privacy </span>& <span class="copyright-text"> Cookies </span>.</p>
+           </div>
+           <div>
+                 <p>made with<span id="footer-entity"> &#10084;</span><span class="copyright-text"> by Group3 SGA 0.5</span>.</p>
+           </div>
+       </div>  
+   </footer>
+  <!-- end of footer -->
+
+  <script src="assets/scripts/hailingcinema.js"></script>
+  </body>
+  
+</html>
